@@ -1,8 +1,7 @@
 <!doctype html>
 
-<!-- TODO: Varijable --> 
-
 <?php
+
 	$title = "My top web sites";
 	$link1 = "http://techcrunch.com/";
 	$link2 = "http://9gag.com/";
@@ -27,7 +26,7 @@
 <body>
 	<!-- Naslov -->
 	<h1> <?php echo $title; ?> </h1>
-	
+
 	<ul> 
 
 		<!-- Link 1 -->

@@ -11,7 +11,7 @@ Repozitory sadrzi fajlove vezane za kurs PHP-a za pocetnike na Academy387. Cilj 
 <h2> Sadrzaj repozitorija: </h2>
 <h4> <a href="" target="_blank"> Lekcija 2 </a></h4>
 
-<p> Lekcija 2 ukljucuje Shvatanje osnova: sintakse, varijable, artrimetričke operacije, operacije sa stringovima, PHP i HTML combined </p>
+<p> Lekcija 2 ukljucuje shvatanje osnova: sintakse, varijable, artrimetričke operacije, operacije sa stringovima, PHP i HTML combined </p>
 
 <ul> 
 	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture2/example1_starterTemplate.php"> Starter template za vjezbu 1 </a> </li>

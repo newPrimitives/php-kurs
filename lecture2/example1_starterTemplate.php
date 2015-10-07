@@ -3,7 +3,7 @@
 <!-- TODO: Varijable --> 
 
 <?php
-	$title = "My top web sites";
+	$title = "";
 ?>
 
 <html lang="en">
