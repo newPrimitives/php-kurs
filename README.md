@@ -22,3 +22,4 @@ Repozitory sadrzi fajlove vezane za kurs PHP-a za pocetnike na Academy387. Cilj 
 	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture2/phpOperators.php"> Lista operacija u PHP </a> </li>
 
 </ul>
+
