@@ -16,47 +16,47 @@
 
 <body>
 
-	<h1> Konstante u PHP </h1>	
+  	<h1> Konstante u PHP </h1>	
 
-	<!-- Inicijalizacija konstante Int tipa -->
+  	<!-- Inicijalizacija konstante Int tipa -->
 
-  <h3> Integer </h3>
-	
-  <?php
-		define('INT_CONSTANT', 1, false);
-		echo INT_CONSTANT;
-	?>
+    <h3> Integer </h3>
+  	
+    <?php
+  		define('INT_CONSTANT', 1, false);
+  		echo INT_CONSTANT;
+  	?>
 
-  <br>
+    <br>
 
-  <!-- Inicijalizacija konstante String tipa -->
+    <!-- Inicijalizacija konstante String tipa -->
 
-  <h3> String </h3>
-  
-  <?php
-    define('STRING_CONSTANT', "Some string", false);
-    echo STRING_CONSTANT;
-  ?>
+    <h3> String </h3>
+    
+    <?php
+      define('STRING_CONSTANT', "Some string", false);
+      echo STRING_CONSTANT;
+    ?>
 
-  <br>
+    <br>
 
-  <!-- Inicijalizacija konstante Bool tipa -->
+    <!-- Inicijalizacija konstante Bool tipa -->
 
-  <h3> Boolean </h3>
-  
-  <?php
-    define('BOOL_CONSTANT', true, false);
-    echo BOOL_CONSTANT;
-  ?>
+    <h3> Boolean </h3>
+    
+    <?php
+      define('BOOL_CONSTANT', true, false);
+      echo BOOL_CONSTANT;
+    ?>
 
-  <br>
-  
-  <h3> String varijabla </h3>
-  
-  <?php
-    $stringVariable = STRING_CONSTANT;
-    echo $stringVariable;
-  ?>
+    <br>
+    
+    <h3> String varijabla </h3>
+    
+    <?php
+      $stringVariable = STRING_CONSTANT;
+      echo $stringVariable;
+    ?>
 
 
 </body>
