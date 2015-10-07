@@ -11,5 +11,5 @@ Repozitory sadrzi fajlove vezane za kurs PHP-a za pocetnike na Academy387
 <ul> 
 	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture2/example1_starterTemplate.php"> Starter template za vjezbu 1 </a> </li>
 
-	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture2/example1_starterTemplate.php"> Rjesenje vjezbe 1 </a> </li>
+	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture2/example1_final.php"> Rjesenje vjezbe 1 </a> </li>
 </ul>
