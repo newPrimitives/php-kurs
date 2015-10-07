@@ -1,4 +1,4 @@
-# php-kurs
+<h1> PHP Kurs za pocetnike - Academy397 </h1>
 Repozitory sadrzi fajlove vezane za kurs PHP-a za pocetnike na Academy387. Cilj kursa je da po njegovom završetku, svako od polaznika ima znanje da samostalno isprogramira CRUD CMS sistem. Repozitorij se updateuje dva puta sedmicno.
 
 <h1> Dodatni resursi </h1>
