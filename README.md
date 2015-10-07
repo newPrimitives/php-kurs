@@ -10,21 +10,21 @@ Repozitory sadrzi fajlove vezane za kurs PHP-a za pocetnike na Academy387. Cilj 
 
 <h2> Sadrzaj repozitorija: </h2>
 
-<h4> <a href="" target="_blank"> Lekcija 2 </a></h4>
+<h4> <a href="http://www.slideshare.net/NerminSehic/php-za-pocetnike-predavanje-1" target="_blank"> Lekcija 1 </a></h4>
 
 <p> Lekcija 1 ukljucuje podešavanje development environmenta te Hello World primjer </p>
 
 <ul> 
 
-	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture2/example1_starterTemplate.php"> HTML starter template </a> </li>
+	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture1/htmlStarerTemplate.php"> HTML starter template </a> </li>
 
-	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture2/example1_starterTemplate.php"> Hello World  </a> </li>
+	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture1/helloWorld.php"> Hello World  </a> </li>
 
 </ul>
 
 <h4> <a href="" target="_blank"> Lekcija 2 </a></h4>
 
-<p> Lekcija 2 ukljucuje shvatanje osnova: sintakse, varijable, artrimetričke operacije, operacije sa stringovima, PHP i HTML combined </p>
+<p> Lekcija 2 ukljucuje shvatanje osnova, sintaksu, varijable, artrimetričke operacije, operacije sa stringovima, PHP i HTML combined </p>
 
 <ul> 
 
