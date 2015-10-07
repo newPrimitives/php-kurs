@@ -4,8 +4,8 @@
 <head>
   <meta charset="utf-8">
 
-  <title> Starter template</title>
-  <meta name="description" content="HTML5 Starter template">
+  <title> Hello World</title>
+  <meta name="description" content="Hello World">
   <meta name="author" content="Academy387">
 
   <!--[if lt IE 9]>
@@ -16,7 +16,7 @@
 
 <body>
 
-<h1> Starter template </h1>
+<?php echo "Hello world"; ?>
 
 </body>
 </html>
