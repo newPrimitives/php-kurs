@@ -38,5 +38,7 @@ Repozitorij sadrzi fajlove vezane za kurs PHP-a za pocetnike na Academy387. Cilj
 
 	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture2/example2_final.php"> Rjesenje vjezbe 2</a> </li>
 
+	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture2/phpStrings.php"> Stringovi u PHP</a> </li>
+
 </ul>
 
