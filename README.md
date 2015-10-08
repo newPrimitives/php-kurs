@@ -22,7 +22,7 @@ Repozitorij sadrzi fajlove vezane za kurs PHP-a za pocetnike na Academy387. Cilj
 
 </ul>
 
-<h4> <a href="" target="_blank"> Lekcija 2 </a></h4>
+<h4> <a href="http://www.slideshare.net/NerminSehic/php-za-pocetnike-predavanje-2" target="_blank"> Lekcija 2 </a></h4>
 
 <p> Lekcija 2 ukljucuje shvatanje osnova, sintaksu, varijable, artrimetričke operacije, operacije sa stringovima, PHP i HTML combined </p>
 
