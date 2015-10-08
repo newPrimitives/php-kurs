@@ -17,6 +17,7 @@
 <body>
 
 	<h1> Aritmetricke operacije </h1>	
+	
 	<!-- Sabiranje -->
 	<?php
 	$x = 5; 
@@ -80,6 +81,8 @@
 	echo "Rezultat kvadriranja: ";
 	echo $x ** $y;
 	?>
+
+
 
 </body>
 </html>
