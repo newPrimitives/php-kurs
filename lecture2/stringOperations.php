@@ -60,7 +60,7 @@
 		prikazuje unutar stringa. 
 	 */
 	
-	printf('<br/> String prije trim funkcije -->|%s|<--', $untrimmedString);
+	printf('<br/> %s String prije trim funkcije -->||<--', $untrimmedString);
 	printf('<br/> Duzina stringa prije trim funkcije -->|%s|<--', $lengthOfUntrimmedString);
 	printf('<br/> String nakon trim funkcije -->|%s|<--', $trimmedString);
 	printf('<br/> Duzina stringa nakon trim funkcije -->|%s|<--', $lengthOfTrimmedString);

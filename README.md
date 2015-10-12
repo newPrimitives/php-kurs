@@ -42,3 +42,23 @@ Repozitorij sadrzi fajlove vezane za kurs PHP-a za pocetnike na Academy387. Cilj
 
 </ul>
 
+<h4> <a href="http://www.slideshare.net/NerminSehic/php-za-pocetnike-predavanje-2" target="_blank"> Lekcija 3 </a></h4>
+
+<p> Lekcija 3 ukljucuje arrays (osnove), numerical arrays, associative arrays, upis/ispis iz niza, multidimenzionalni nizovi, sortiranje i pretraga nizova, array merging.  </p>
+
+<ul> 
+
+	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture2/example1_starterTemplate.php"> Starter template za vjezbu 1 </a> </li>
+
+	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture2/example1_final.php"> Rjesenje vjezbe 1 </a> </li>
+
+	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture2/phpOperators.php"> Osnovne operacije sa nizovima </a> </li>
+
+	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture2/phpConstants.php"> Pretrage po nizovima </a> </li>
+
+	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture2/example2_final.php"> Sortiranje nizova </a> </li>
+
+	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture2/phpStrings.php"> Stringovi u PHP</a> </li>
+
+</ul>
+
