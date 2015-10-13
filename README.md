@@ -32,33 +32,33 @@ Repozitorij sadrzi fajlove vezane za kurs PHP-a za pocetnike na Academy387. Cilj
 
 	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture2/example1_final.php"> Rjesenje vjezbe 1 </a> </li>
 
-	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture2/phpOperators.php"> Lista operacija u PHP </a> </li>
+	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture2/operators.php"> Lista operacija u PHP </a> </li>
 
-	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture2/phpConstants.php"> Primjeri konstanti u PHP </a> </li>
+	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture2/constants.php"> Primjeri konstanti u PHP </a> </li>
 
 	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture2/example2_final.php"> Rjesenje vjezbe 2</a> </li>
 
-	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture2/phpStrings.php"> Stringovi u PHP</a> </li>
+	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture2/stringOperations.php"> Stringovi u PHP</a> </li>
 
 </ul>
 
-<h4> <a href="http://www.slideshare.net/NerminSehic/php-za-pocetnike-predavanje-2" target="_blank"> Lekcija 3 </a></h4>
+<h4> <a href="http://www.slideshare.net/NerminSehic/php-za-pocetnike-predavanje-3" target="_blank"> Lekcija 3 </a></h4>
 
 <p> Lekcija 3 ukljucuje arrays (osnove), numerical arrays, associative arrays, upis/ispis iz niza, multidimenzionalni nizovi, sortiranje i pretraga nizova, array merging.  </p>
 
 <ul> 
 
-	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture2/example1_starterTemplate.php"> Starter template za vjezbu 1 </a> </li>
+	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture3/example1_starterTemplate.php"> Starter template za vjezbu 1 </a> </li>
 
-	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture2/example1_final.php"> Rjesenje vjezbe 1 </a> </li>
+	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture3/example1_final.php"> Rjesenje vjezbe 1 </a> </li>
 
-	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture2/phpOperators.php"> Osnovne operacije sa nizovima </a> </li>
+	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture3/arraysBasic.php"> Osnovne operacije sa nizovima </a> </li>
 
-	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture2/phpConstants.php"> Pretrage po nizovima </a> </li>
+	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture3/arraySearch.php"> Pretrage po nizovima </a> </li>
 
-	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture2/example2_final.php"> Sortiranje nizova </a> </li>
+	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture3/arraySort.php"> Sortiranje nizova </a> </li>
 
-	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture2/phpStrings.php"> Stringovi u PHP</a> </li>
+	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture3/removeArray.php"> Brisanje iz nizova </a> </li>
 
 </ul>
 
