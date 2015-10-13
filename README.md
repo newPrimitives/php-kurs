@@ -22,9 +22,9 @@ Repozitorij sadrzi fajlove vezane za kurs PHP-a za pocetnike na Academy387. Cilj
 
 </ul>
 
-<h4> <a href="http://www.slideshare.net/NerminSehic/php-za-pocetnike-predavanje-2" target="_blank"> Lekcija 2 </a></h4>
+<h4> <a href="http://www.slideshare.net/NerminSehic/php-za-pocetnike-predavanje-2" target="_blank">Lekcija 2 </a></h4>
 
-<p> Lekcija 2 ukljucuje shvatanje osnova, sintaksu, varijable, artrimetričke operacije, operacije sa stringovima, PHP i HTML combined </p>
+<p>Lekcija 2 ukljucuje shvatanje osnova, sintaksu, varijable, artrimetričke operacije, operacije sa stringovima, PHP i HTML combined </p>
 
 <ul> 
 
@@ -42,7 +42,7 @@ Repozitorij sadrzi fajlove vezane za kurs PHP-a za pocetnike na Academy387. Cilj
 
 </ul>
 
-<h4> <a href="http://www.slideshare.net/NerminSehic/php-za-pocetnike-predavanje-3" target="_blank"> Lekcija 3 </a></h4>
+<h4><a href="http://www.slideshare.net/NerminSehic/php-za-pocetnike-predavanje-3" target="_blank">Lekcija 3 </a></h4>
 
 <p> Lekcija 3 ukljucuje arrays (osnove), numerical arrays, associative arrays, upis/ispis iz niza, multidimenzionalni nizovi, sortiranje i pretraga nizova, array merging.  </p>
 
