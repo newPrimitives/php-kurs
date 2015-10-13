@@ -1,16 +1,16 @@
-<h1> PHP Kurs za pocetnike - Academy387 </h1>
+<h1>PHP Kurs za pocetnike - Academy387 </h1>
 Repozitorij sadrzi fajlove vezane za kurs PHP-a za pocetnike na Academy387. Cilj kursa je da po njegovom završetku, svako od polaznika ima znanje da samostalno isprogramira CRUD CMS sistem. Repozitorij se updateuje dva puta sedmicno.
 
-<h1> Dodatni resursi </h1>
+<h1>Dodatni resursi </h1>
 <a href="http://www.academy387.com/program/php-kurs-za-pocetnike" target="_blank"> Academy387 web site </a> <br>
 <a href="http://www.slideshare.net/NerminSehic/" target="_blank"> Prezentacije sa predavanja </a><br>
 <a href="http://php.net/docs.php" target="_blank"> PHP dokumentacija </a><br>
 <a href="http://www.w3schools.com/html/default.asp" target="_blank"> W3Schools </a>
 
 
-<h2> Sadrzaj repozitorija: </h2>
+<h2>Sadrzaj repozitorija: </h2>
 
-<h4> <a href="http://www.slideshare.net/NerminSehic/php-za-pocetnike-predavanje-1" target="_blank"> Lekcija 1 </a></h4>
+<h4><a href="http://www.slideshare.net/NerminSehic/php-za-pocetnike-predavanje-1" target="_blank">Lekcija 1 </a></h4>
 
 <p> Lekcija 1 ukljucuje podešavanje development environmenta te Hello World primjer </p>
 
