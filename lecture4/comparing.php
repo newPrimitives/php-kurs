@@ -20,11 +20,11 @@
 	
 	<?php
 
-		$user = 'Admin';
+		$user = 'user';
 		$message = 'Not logged in.';
 
-		if($user == 'Admin') {
-			$message = 'You are now logged in as Admin';
+		if($user != 'Admin') {
+			$message = 'You are now logged in as User';
 		}
 
 		echo $message;
@@ -35,7 +35,7 @@
 	
 	<?php
 
-		$user = 'Admin';
+		$user = 'user';
 		$message = 'Not logged in.';
 
 		if($user == 'Admin') {
@@ -53,7 +53,7 @@
 	
 	<?php
 
-		$user = 'Admin';
+		$user = 'guest';
 		$message = 'Not logged in.';
 		
 		/*
@@ -78,7 +78,7 @@
 	
 	<?php
 
-		$user = 'superAdmin';
+		$user = 'User';
 		$message = 'Not logged in.';
 
 		/*
@@ -86,7 +86,7 @@
 		*/
 
 		if($user == 'superAdmin') {
-			$message = 'You are now logged in as Super Admin';
+			$message = 'You are now logged in as Super Admin';	
 		} 
 		elseif ($user == 'Admin'){
 			$message = 'You are now logged in as Admin';
@@ -113,13 +113,13 @@
 		/*
 			If statementi se mogu pisati unutar postojecih if-ova (nested ifs)			
 		*/
-	
+		
 		if(isset($newUser)) {
 
-			if($user == 'Admin') {
+			if($newUser == 'Admin') {
 				$message = 'You are now logged in as Admin';
 			} 
-			elseif ($user == 'User'){
+			elseif ($newUser == 'User'){
 				$message = 'You are now logged in as user';
 			}
 			else {

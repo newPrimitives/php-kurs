@@ -89,8 +89,6 @@ Repozitorij sadrzi fajlove vezane za kurs PHP-a za pocetnike na Academy387. Cilj
 
 	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture4/homeworkStarterTemplate.php"> Starter template zadaca 1 </a> </li>
 
-	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture4/homeworkSolution.php"> Rjesenje zadace 1 </a> </li>
-
 </ul>
 
 <h4><a href="https://github.com/newPrimitives/php-kurs/blob/master/examples">Dodatni primjeri </a></h4>
