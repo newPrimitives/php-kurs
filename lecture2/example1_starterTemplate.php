@@ -12,7 +12,7 @@
 
   <title> <?php echo $title; ?> </title>
   <meta name="description" content="Moje top 3 najdraze web stranice">
-  <meta name="author" content="Academy387">
+  <meta name="author" content="Nermin Sehic">
 
   <!--[if lt IE 9]>
   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>

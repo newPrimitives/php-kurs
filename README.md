@@ -6,6 +6,7 @@ Repozitorij sadrzi fajlove vezane za kurs PHP-a za pocetnike na Academy387. Cilj
 <a href="http://www.slideshare.net/NerminSehic/" target="_blank"> Prezentacije sa predavanja </a><br>
 <a href="http://php.net/docs.php" target="_blank"> PHP dokumentacija </a><br>
 <a href="http://www.w3schools.com/html/default.asp" target="_blank"> W3Schools </a>
+<a href="https://www.youtube.com/watch?v=y3UH2gAhwPI" target="_blank"> HTML & CSS za pocetnike - Video </a>
 
 
 <h2>Sadrzaj repozitorija: </h2>
@@ -59,6 +60,32 @@ Repozitorij sadrzi fajlove vezane za kurs PHP-a za pocetnike na Academy387. Cilj
 	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture3/arraySort.php"> Sortiranje nizova </a> </li>
 
 	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture3/removeArray.php"> Brisanje iz nizova </a> </li>
+
+</ul>
+
+<h4><a href="http://www.slideshare.net/NerminSehic/php-za-pocetnike-predavanje-4" target="_blank">Lekcija 4 </a></h4>
+
+<p> Poređenja, korištenje if, else i elseif statement-a, korištenje switch-a, for i while petlje, foreach petlje, korištenje continue I break komandi. </p>
+
+<ul> 
+
+	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture4/example1_starterTemplate.php"> Starter template za vjezbu 1 </a> </li>
+
+	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture4/example1_final.php"> Rjesenje vjezbe 1 </a> </li>
+
+	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture4/comparisonOperators.php"> Comparison operatori u PHP </a> </li>
+
+	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture4/comparing.php"> Primjeri if, elseif & else u PHP </a> </li>
+
+	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture4/switch.php"> Primjer switch-a u PHP </a> </li>
+
+	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture4/forLoop.php"> For petlja </a> </li>
+
+	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture4/whileLoop.php"> While & do-while petlja </a> </li>
+
+	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture4/foreach.php"> Foreach petlja  </a> </li>
+
+	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/.htacess"> .htacess file  </a> </li>
 
 </ul>
 

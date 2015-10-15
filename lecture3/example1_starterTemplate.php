@@ -47,6 +47,9 @@
 	<h4> Mjesto rodjenja : </h4>
 	<hr>
 
+	<h4> JMBG : </h4>
+	<hr>
+
 	<!-- Ispisati vrijednost array-a sa key-em koji oznacava link slike -->
 	<img src="" width="200px" alt="Profilna slika">
 

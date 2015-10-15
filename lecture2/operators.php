@@ -6,7 +6,7 @@
 
   <title> PHP operacije </title>
   <meta name="description" content="PHP Operacije">
-  <meta name="author" content="Academy387">
+  <meta name="author" content="Nermin Sehic">
 
   <!--[if lt IE 9]>
   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
