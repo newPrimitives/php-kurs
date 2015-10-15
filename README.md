@@ -93,7 +93,7 @@ Repozitorij sadrzi fajlove vezane za kurs PHP-a za pocetnike na Academy387. Cilj
 
 </ul>
 
-<h4><a href="http://www.slideshare.net/NerminSehic/php-za-pocetnike-predavanje-4" target="_blank">Dodatni primjeri </a></h4>
+<h4><a href="https://github.com/newPrimitives/php-kurs/blob/master/examples">Dodatni primjeri </a></h4>
 
 <p> Dodatni primjeri ukljucuju kodove (PHP, JavaScript, HTML, CSS) izvan plana i programa kursa a koje su polaznici smatrali zanimljivim. </p>
 
