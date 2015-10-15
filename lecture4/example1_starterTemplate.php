@@ -1,5 +1,5 @@
 <?php
-	$cities = array('Sarajevo');
+	$cities = array('Sarajevo', 'Banja Luka', 'Tuzla', 'Zenica', 'Mostar', 'Bihac', 'Travnik', 'Visegrad', 'Prijedor');
 ?>
 
 <!doctype html>
