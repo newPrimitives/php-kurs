@@ -87,5 +87,9 @@ Repozitorij sadrzi fajlove vezane za kurs PHP-a za pocetnike na Academy387. Cilj
 
 	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/htaccessCommands.php"> Komande za .htacess file  </a> </li>
 
+	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/homeworkStarterTemplate.php"> Starter template zadaca 1 </a> </li>
+
+	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/homeworkSolution.php"> Rjesenje zadace 1 </a> </li>
+
 </ul>
 
