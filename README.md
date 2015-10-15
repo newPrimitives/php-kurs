@@ -65,7 +65,7 @@ Repozitorij sadrzi fajlove vezane za kurs PHP-a za pocetnike na Academy387. Cilj
 
 <h4><a href="http://www.slideshare.net/NerminSehic/php-za-pocetnike-predavanje-4" target="_blank">Lekcija 4 </a></h4>
 
-<p> Poređenja, korištenje if, else i elseif statement-a, korištenje switch-a, for i while petlje, foreach petlje, korištenje continue I break komandi. </p>
+<p> Predavanje 4 ukljucuje poređenja, korištenje if, else i elseif statement-a, korištenje switch-a, for i while petlje, foreach petlje, korištenje continue I break komandi. </p>
 
 <ul> 
 
@@ -90,6 +90,17 @@ Repozitorij sadrzi fajlove vezane za kurs PHP-a za pocetnike na Academy387. Cilj
 	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture4/homeworkStarterTemplate.php"> Starter template zadaca 1 </a> </li>
 
 	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture4/homeworkSolution.php"> Rjesenje zadace 1 </a> </li>
+
+</ul>
+
+<h4><a href="http://www.slideshare.net/NerminSehic/php-za-pocetnike-predavanje-4" target="_blank">Dodatni primjeri </a></h4>
+
+<p> Dodatni primjeri ukljucuju kodove (PHP, JavaScript, HTML, CSS) izvan plana i programa kursa a koje su polaznici smatrali zanimljivim. </p>
+
+<ul> 
+
+	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/examples/jsToPDF"> HTML to PDF JavaScript solucija </a> </li>
+
 
 </ul>
 
