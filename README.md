@@ -85,7 +85,7 @@ Repozitorij sadrzi fajlove vezane za kurs PHP-a za pocetnike na Academy387. Cilj
 
 	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture4/foreach.php"> Foreach petlja  </a> </li>
 
-	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/.htacess"> .htacess file  </a> </li>
+	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/htacess.php"> Komande za .htacess file  </a> </li>
 
 </ul>
 
