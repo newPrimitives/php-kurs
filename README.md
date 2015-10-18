@@ -5,7 +5,7 @@ Repozitorij sadrzi fajlove vezane za kurs PHP-a za pocetnike na Academy387. Cilj
 <a href="http://www.academy387.com/program/php-kurs-za-pocetnike" target="_blank"> Academy387 web site </a> <br>
 <a href="http://www.slideshare.net/NerminSehic/" target="_blank"> Prezentacije sa predavanja </a><br>
 <a href="http://php.net/docs.php" target="_blank"> PHP dokumentacija </a><br>
-<a href="http://www.w3schools.com/html/default.asp" target="_blank"> W3Schools </a>
+<a href="http://www.w3schools.com/html/default.asp" target="_blank"> W3Schools </a> <br>
 <a href="https://www.youtube.com/watch?v=y3UH2gAhwPI" target="_blank"> HTML & CSS za pocetnike - Video </a>
 
 
@@ -88,6 +88,10 @@ Repozitorij sadrzi fajlove vezane za kurs PHP-a za pocetnike na Academy387. Cilj
 	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/htaccessCommands.php"> Komande za .htacess file  </a> </li>
 
 	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture4/homeworkStarterTemplate.php"> Starter template zadaca 1 </a> </li>
+
+	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture4/homeworkSolution.php"> Rjesenje zadace 1 </a> </li>
+
+	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture4/homeworkSolutionBootstrap.php"> Rjesenje zadace 1 sa Bootstrap frameworkom </a> </li>
 
 </ul>
 
