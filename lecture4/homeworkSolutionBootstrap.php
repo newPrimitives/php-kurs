@@ -22,7 +22,7 @@
   <meta name="description" content="HTML5 Starter template">
   <meta name="author" content="Nermin Sehic">
   <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
   <!--[if lt IE 9]>
   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
@@ -34,49 +34,58 @@
 	  	font-family: 'Open Sans', sans-serif;
 	  }
 
-	  img {
-	  	float: left;
-	  	margin-right: 10px;
-	  }
-
   </style>
   
 </head>
 
 <body>
 
-	<h1> Tech Portal </h1>
-	<h3> Kategorija: vijesti </h3>	
-	<hr> <br>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-12">
+				<h1> Tech Portal </h1>
+				<h3> Kategorija: vijesti </h3>	
+			</div>
+		</div>
 
-	<!-- Template jednog clanka -->
-	
-	<?php
+		<!-- Template jednog clanka -->
+		
+		<?php
 
-		$index = sizeof($title);
+			$index = sizeof($title);
 
-		for ($i = 0; $i<$index; $i++) {
-
-			echo '<article>';
-			echo '<img src='. $images[$i] . ' width="400px;" height="200px">';
-			echo ' <h3> '. $title[$i] . '  </h3> ';
-			
-			if($user == "admin" or $user == "user"){
-				echo '<p> '. $text[$i] .' </p>';
-			}
-			else {
-				echo "Potrebno je da budete logovani da bi ste vidjeli ovaj sadzraj.";
-			}
-
-			if($user == "admin") {
-				echo '<a href='. $links[$i] .' target="_blank"> Izvor clanka </a>';
-			}
+			for ($i = 0; $i<$index; $i++) {
 				
-			echo '<div style="clear:both"> </div>';
-			echo '</article>';
-		}
+				echo '<div class="row">';
+					
+					echo '<div class="col-md-3">';
+						echo '<img class="img-responsive" src='. $images[$i] . '>';
+					echo '</div>';
+					// Kraj col-md-3
 
-	?>
+					echo '<div class="col-md-9">';
+						echo ' <h3> '. $title[$i] . '</h3>';
+					
+						if($user == "admin" or $user == "user"){
+							echo '<p> '. $text[$i] .' </p>';
+						}
+						else {
+							echo "Potrebno je da budete logovani da bi ste vidjeli ovaj sadzraj.";
+						}
 
+						if($user == "admin") {
+							echo '<a href='. $links[$i] .' target="_blank"> Izvor clanka </a>';
+						}	
+					echo '</div>';
+					// Kraj col-md-9 
+
+				echo '</div>';		
+				// Kraj row-a
+			}
+			// Kraj for petlje
+
+		?>
+		
+	</div>
 </body>
 </html>
