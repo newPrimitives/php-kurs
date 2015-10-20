@@ -103,7 +103,7 @@ Repozitorij sadrzi fajlove vezane za kurs PHP-a za pocetnike na Academy387. Cilj
 
 	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture5/functionsBasic.php"> Funkcije - basics  </a> </li>
 
-	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture5/primjer1.php"> Primjer 1 - funkcija koja generise HTML listu </a> </li>
+	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture5/primjer1.php"> Primjer 1 - funkcija koja generise HTML dropdown listu </a> </li>
 
 	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture5/example1_starterTemplate.php"> Starter Template za vjezbu 1 </a> </li>
 
