@@ -97,7 +97,7 @@ Repozitorij sadrzi fajlove vezane za kurs PHP-a za pocetnike na Academy387. Cilj
 
 <h4><a href="http://www.slideshare.net/NerminSehic/php-za-pocetnike-predavanje-5" target="_blank">Lekcija 5 </a></h4>
 
-<p> Lekcija 3 Korištenje PHP funkcija, konstrukcija vlastitih funkcija, optional i mandatory vrijednosti, globalne varijable, primjer pagination funkcije. </p>
+<p> Lekcija 5 Korištenje PHP funkcija, konstrukcija vlastitih funkcija, optional i mandatory vrijednosti, globalne varijable, primjer pagination funkcije. </p>
 
 <ul> 
 
