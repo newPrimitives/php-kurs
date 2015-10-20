@@ -95,6 +95,28 @@ Repozitorij sadrzi fajlove vezane za kurs PHP-a za pocetnike na Academy387. Cilj
 
 </ul>
 
+<h4><a href="http://www.slideshare.net/NerminSehic/php-za-pocetnike-predavanje-5" target="_blank">Lekcija 5 </a></h4>
+
+<p> Lekcija 3 Korištenje PHP funkcija, konstrukcija vlastitih funkcija, optional i mandatory vrijednosti, globalne varijable, primjer pagination funkcije. </p>
+
+<ul> 
+
+	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture5/functionsBasic.php"> Funkcije - basics  </a> </li>
+
+	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture5/primjer1.php"> Primjer 1 - funkcija koja generise HTML listu </a> </li>
+
+	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture5/example1_starterTemplate.php"> Starter Template za vjezbu 1 </a> </li>
+
+	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture5/example1_final.php"> Rjesenje vjezbe 1</a> </li>
+
+	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture5/optionalVariables.php"> Optional & required varijable  </a> </li>
+
+	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture5/passByReference.php"> Pass by value & pass by reference </a> </li>
+
+	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture5/paginationExample.php"> Pagination funkcija </a> </li>
+
+</ul>
+
 <h4><a href="https://github.com/newPrimitives/php-kurs/blob/master/examples">Dodatni primjeri </a></h4>
 
 <p> Dodatni primjeri ukljucuju kodove (PHP, JavaScript, HTML, CSS) izvan plana i programa kursa a koje su polaznici smatrali zanimljivim. </p>
