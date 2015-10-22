@@ -119,6 +119,28 @@ Repozitorij sadrzi fajlove vezane za kurs PHP-a za pocetnike na Academy387. Cilj
 
 </ul>
 
+<h4><a href="http://www.slideshare.net/NerminSehic/php-za-pocetnike-predavanje-6" target="_blank">Lekcija 6 </a></h4>
+
+<p> Lekcija 6 Korištenje PHP funkcija, konstrukcija vlastitih funkcija, optional i mandatory vrijednosti, globalne varijable, primjer pagination funkcije. </p>
+
+<ul> 
+
+	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture6/classBasic.php"> Osnovna struktura klase </a> </li>
+
+	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture6/classProperties1.php"> Primjer property-a klase </a> </li>
+
+	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture6/classProperties2.php"> Inicijalizacija property-a kroz metodu </a> </li>
+
+	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture6/GenerateHTML.php"> Primjer pravljenja i pozivanja metoda iz klase </a> </li>
+
+	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture6/visibility.php"> Visibility nivoi u klasama </a> </li>
+
+	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture6/inheritance.php"> Primjer inheritance-a  </a> </li>
+
+	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture6/homework3_starterTemplate.php"> Starter template zadaca 3 </a> </li>
+
+</ul>
+
 <h4><a href="https://github.com/newPrimitives/php-kurs/blob/master/examples">Dodatni primjeri </a></h4>
 
 <p> Dodatni primjeri ukljucuju kodove (PHP, JavaScript, HTML, CSS) izvan plana i programa kursa a koje su polaznici smatrali zanimljivim. </p>
