@@ -3,7 +3,7 @@
 	function addressTable($name, $address, $city, $flatEntrence = '&nbsp;')
 	{
 		$table = '<table border=1>' . PHP_EOL;
-		$table .= sprintf('<tr><th>Name</th><td>%s</td></tr>', $name);
+		$table .= '<tr><th>Name</th><td>' .$name. '</td></tr>';
 		$table .= sprintf('<tr><th rowspan=3>Address</th><td>%s</td></tr>', $address);
 		$table .= sprintf('<tr><td>%s</td></tr>', $flatEntrence);
 		$table .= sprintf('<tr><td>%s</td></tr>', $city);

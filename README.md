@@ -115,6 +115,8 @@ Repozitorij sadrzi fajlove vezane za kurs PHP-a za pocetnike na Academy387. Cilj
 
 	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture5/paginationExample.php"> Pagination funkcija </a> </li>
 
+	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture5/homeworkSolution.php"> Rjesenje zadace 2 </a> </li>
+
 </ul>
 
 <h4><a href="https://github.com/newPrimitives/php-kurs/blob/master/examples">Dodatni primjeri </a></h4>

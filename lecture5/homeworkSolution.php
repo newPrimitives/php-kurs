@@ -41,36 +41,25 @@
 	   		$nextPage = $page+1;
 	   	}
 
-	   	printf('<a href="paginationExample.php?page=%s"> <button> << </button> </a>', $prevPage);
-		printf('<a href="paginationExample.php?page=%s"> <button> >> </button> </a>', $nextPage);
+	   	printf('<a href="homeworkSolution.php?page=%s"> <button> << </button> </a>', $prevPage);
+		printf('<a href="homeworkSolution.php?page=%s"> <button> >> </button> </a>', $nextPage);
 
 	   	return $arrayChunk;
 
 	}
 
+	function generateHTMLImage($items)
+	{
+		$paginatedItems = paginate($items, 2);
 
-	/**
-	 * Funkcija generise HTML ul listu 
-	 *
-	 * @param  array    $array  Niz (data) 
-	 * @return HTML lista sa vrijednostima arraya 
-	 */ 
-	
-	function generateHTMLList($items) 
-	{	
-
-		$paginatedItems = paginate($items, 5);
-
-		printf('<ul>');
-		
-		foreach ($paginatedItems as $item)
-		{
-			printf('<li> %s </li>', $item);
+		foreach ($paginatedItems as $item) {
+			printf('<br>');
+			printf('<img src=%s width="500px">', $item);
+			printf('<br>');
+			printf('<a href=%s> %s </a>', $item, $item);
+			printf('<br>');
 		}
-
-		printf('</ul>');	
-
-		return TRUE;
+		
 	}
 
 ?>
@@ -81,8 +70,8 @@
 <head>
   <meta charset="utf-8">
 
-  <title> Pagination </title>
-  <meta name="description" content="Pagination">
+  <title> Hello World</title>
+  <meta name="description" content="Hello World">
   <meta name="author" content="Nermin Sehic">
 
   <!--[if lt IE 9]>
@@ -93,13 +82,14 @@
 
 <body>
 
+<h1> lol.com </h1>
 <?php
 
-	$cities = array('Sarajevo', 'Banja Luka', 'Tuzla', 'Zenica', 'Mostar', 'Bihac', 'Travnik', 'Visegrad', 'Prijedor');
-	generateHTMLList($cities);
+$links = array('http://img-9gag-fun.9cache.com/photo/aepdVnb_460s.jpg', 'http://img-9gag-fun.9cache.com/photo/am8doQ2_460s_v1.jpg', 'http://img-9gag-fun.9cache.com/photo/anBdOdL_460s_v1.jpg', 'http://img-9gag-fun.9cache.com/photo/a1YxQ0G_460s.jpg', 'http://img-9gag-fun.9cache.com/photo/a1YxmRD_460s.jpg', 'http://img-9gag-fun.9cache.com/photo/a4LxMK6_460s.jpg', 'http://img-9gag-fun.9cache.com/photo/aRVyBQ5_460s.jpg');
+
+echo generateHTMLImage($links);
 
 ?>
-
 
 </body>
 </html>
