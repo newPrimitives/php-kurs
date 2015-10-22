@@ -121,7 +121,7 @@ Repozitorij sadrzi fajlove vezane za kurs PHP-a za pocetnike na Academy387. Cilj
 
 <h4><a href="http://www.slideshare.net/NerminSehic/php-za-pocetnike-predavanje-6" target="_blank">Lekcija 6 </a></h4>
 
-<p> Lekcija 6 ukljucuje objektno orijentisano programiranje, klase, inheritance, visibility level, MVC model </p>
+<p> Lekcija 6 ukljucuje objektno orijentisano programiranje, klase, metode, inheritance, visibility level, MVC model </p>
 
 <ul> 
 
