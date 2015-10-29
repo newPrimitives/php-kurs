@@ -41,5 +41,7 @@ class makeHTML
 }
 
 $html = new makeHTML();
-echo $html->makeH1('Hello world');
+//echo $html->makeH1('Hello world');
+//
+echo $html->makeDropDownList(array('param1', 'param2', 'param3'));
 
