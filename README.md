@@ -141,6 +141,25 @@ Repozitorij sadrzi fajlove vezane za kurs PHP-a za pocetnike na Academy387. Cilj
 
 </ul>
 
+<h4><a href="http://www.slideshare.net/NerminSehic/php-za-pocetnike-predavanje-7" target="_blank">Lekcija 7 </a></h4>
+
+<p> Lekcija 7 ukljucuje prakticni primjer MVC patterna, exceptions, include & require funckije, $_GET[] te kratki osvrt na zakup hostinga i domene. </p>
+
+<ul> 
+	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture7/homework3_solution.php"> Rjesenje zadace 3</a> </li>
+
+	<li> <a href="https://github.com/newPrimitives/php-kurs/tree/master/lecture7/mvc"> MVC Primjer </a> </li>
+
+	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture7/exceptions.php"> Exceptions </a> </li>
+
+	<li> <a href="https://github.com/newPrimitives/php-kurs/tree/master/lecture7/include"> Include i require </a> </li>
+
+	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture7/navbar.php"> Starter template vjezba 1</a> </li>
+
+	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture7/example1_final.php"> Rjesenje vjezbe 1 </a> </li>
+
+</ul>
+
 <h4><a href="https://github.com/newPrimitives/php-kurs/blob/master/examples">Dodatni primjeri </a></h4>
 
 <p> Dodatni primjeri ukljucuju kodove (PHP, JavaScript, HTML, CSS) izvan plana i programa kursa a koje su polaznici smatrali zanimljivim. </p>
