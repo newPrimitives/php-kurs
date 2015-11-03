@@ -160,6 +160,11 @@ Repozitorij sadrzi fajlove vezane za kurs PHP-a za pocetnike na Academy387. Cilj
 
 </ul>
 
+<h4><a href="http://www.slideshare.net/NerminSehic/php-za-pocetnike-predavanje-8" target="_blank">Lekcija 8 </a></h4>
+
+<p> Lekcija 8 ukljucuje uvod u relacione data baze, MySQL, pravljenje baze,
+pravljenje tabla, indexi, veze izmedju tabela i prakticne primjere osnovih operacija sa bazama.  </p>
+
 <h4><a href="https://github.com/newPrimitives/php-kurs/blob/master/examples">Dodatni primjeri </a></h4>
 
 <p> Dodatni primjeri ukljucuju kodove (PHP, JavaScript, HTML, CSS) izvan plana i programa kursa a koje su polaznici smatrali zanimljivim. </p>
