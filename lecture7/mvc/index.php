@@ -1,6 +1,6 @@
 <?php 
 	/*
-		Funkcija include_once iz fonldera Controller ukljuci file Controller.php koji je nas inicijalni kontroler 
+		Funkcija include_once iz foldera Controller ukljuci file Controller.php koji je nas inicijalni kontroler 
 	*/
 	
 	include_once("controller/Controller.php");

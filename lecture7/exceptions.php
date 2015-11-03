@@ -22,15 +22,15 @@ class ExceptionExample
 	}
 }
 
-$exception = new ExceptionExample();
+$caj = new ExceptionExample();
 
 /*
 	PHP pokusava da izvrsi kod, ukoliko se desi error catch block ga uhvati i ispise bez da rusi aplikaciju
 */
 
 try {
-	echo $exception->divide(22, 11);
-	echo $exception->divide(22, 0);
+	echo $caj->divide(22, 11);
+	echo $caj->divide(22, 0);
 } catch (Exception $e) {
 	echo $e->getMessage();
 }
