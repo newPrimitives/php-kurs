@@ -167,7 +167,7 @@ pravljenje tabla, indexi, veze izmedju tabela i prakticne primjere osnovih opera
 
 <h4><a href="http://www.slideshare.net/NerminSehic/php-za-pocetnike-predavanje-9" target="_blank">Lekcija 9 </a></h4>
 
-<p> Lekcija 9 ukljucuje kompleksnije primjere MySQl baza, join-ove, foreign key-eve, entity relation ship diagram.  </p>
+<p> Lekcija 9 ukljucuje kompleksnije primjere MySQl baza, join-ove, foreign key-eve, entity relationship diagram.  </p>
 
 <h4><a href="https://github.com/newPrimitives/php-kurs/blob/master/examples">Dodatni primjeri </a></h4>
 
