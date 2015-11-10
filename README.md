@@ -169,6 +169,27 @@ pravljenje tabla, indexi, veze izmedju tabela i prakticne primjere osnovih opera
 
 <p> Lekcija 9 ukljucuje kompleksnije primjere MySQl baza, join-ove, foreign key-eve, entity relationship diagram.  </p>
 
+<h4><a href="http://www.slideshare.net/NerminSehic/php-za-pocetnike-predavanje-10" target="_blank">Lekcija 10 </a></h4>
+
+<p> Lekcija 10 ukljucuje koristenje PDO klase (Select, Insert, Join, Delete) za povezivanje PHP sa MySQL bazom i oslanja se na primjere radjene u lekciji 8 i 9. </p>
+
+<ul> 
+	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture10/pdoAndMysqli.php"> MySQLi VS PDO</a> </li>
+
+	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture10/selectQuery.php"> Primjer SELECT statementa</a> </li>
+
+	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture10/insertQueryExample1.php"> Primjer INSERT statementa</a> </li>
+
+	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture10/insertQueryExample2.php"> Primjer prepared INSERT statementa</a> </li>
+
+	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture10/joinQuery.php"> Primjer JOIN statementa</a> </li>
+
+	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture10/deleteQueryExample1.php"> Primjer DELETE statementa</a> </li>
+
+	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture10/form.php"> HTML Form template </a> </li>
+
+</ul>
+
 <h4><a href="https://github.com/newPrimitives/php-kurs/blob/master/examples">Dodatni primjeri </a></h4>
 
 <p> Dodatni primjeri ukljucuju kodove (PHP, JavaScript, HTML, CSS) izvan plana i programa kursa a koje su polaznici smatrali zanimljivim. </p>
