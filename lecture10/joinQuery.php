@@ -12,15 +12,15 @@ $dsn = 'mysql:host=localhost;dbname=blog';
 $pdo = new PDO($dsn, $user, $pass);
 
 // SQL statement
-$sql = "SELECT * FROM author, article WHERE article.author_id = author.id";
+$sql = "SELECT author.name as 'authorName', article.name as 'articleName' FROM author, article WHERE article.author_id = author.id ";
 
 /*
 	Fetches a row from a result set associated with a PDOStatement object. 
 	The fetch_style parameter determines how PDO returns the row.
 */
-	
+
 foreach ($pdo->query($sql, PDO::FETCH_ASSOC) as $row) {
-	echo $row['name'];
+	echo $row['id'];
 }
 
 // closes the database connection

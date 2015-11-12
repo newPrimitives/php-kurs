@@ -190,6 +190,19 @@ pravljenje tabla, indexi, veze izmedju tabela i prakticne primjere osnovih opera
 
 </ul>
 
+<h4><a href="http://www.slideshare.net/NerminSehic/php-za-pocetnike-predavanje-11" target="_blank">Lekcija 11 </a></h4>
+
+<p> Lekcija 11 ukljucuje praktican primjer gradiva naucenog kroz prethodna predavanja: dizajn baze, povezivanje PHP sa bazom, unos recorda kroz interface, njegov ispis, jednostavan MVC model, inheritence, petlje kao i osnovni error handling. Praktican primjer je dizajn jednostavnog blog website-a. </p>
+
+<ul> 
+	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture11/"> Blog - kompletna aplikacija</a> </li>
+
+	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture11/database/blog_2015-11-12.sql"> Baza podataka - SQL format </a> </li>
+
+	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture11/"> Wiki - dokumentacija aplikacije </a> </li>
+
+</ul>
+
 <h4><a href="https://github.com/newPrimitives/php-kurs/blob/master/examples">Dodatni primjeri </a></h4>
 
 <p> Dodatni primjeri ukljucuju kodove (PHP, JavaScript, HTML, CSS) izvan plana i programa kursa a koje su polaznici smatrali zanimljivim. </p>

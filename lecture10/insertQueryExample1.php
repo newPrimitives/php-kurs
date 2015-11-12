@@ -12,7 +12,7 @@ $dsn = 'mysql:host=localhost;dbname=blog';
 // PDO class represents the connection
 $pdo = new PDO($dsn, $user, $pass);
 
-$sql = "INSERT INTO author(name, email, pob) VALUES ('ime', 'email', 'mjesto')";
+$sql = "INSERT INTO author(name, email, pob) VALUES ('User iz PHP', 'nekiMail@gmail.com', 'Hadzici')";
 
 $result = $pdo->exec($sql);
 

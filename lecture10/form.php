@@ -1,5 +1,5 @@
-<form action="form.php" method="POST">
 
+<form action="joinQuery.php" method="POST">
   <fieldset>
     <legend>Personal information:</legend>
     First name:<br>
