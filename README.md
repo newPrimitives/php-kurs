@@ -210,7 +210,7 @@ pravljenje tabla, indexi, veze izmedju tabela i prakticne primjere osnovih opera
 <ul> 
 	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture12/"> Blog - kompletna aplikacija</a> </li>
 
-	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture12/database/blog_2015-11-12.sql"> Baza podataka - SQL format </a> </li>
+	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture12/database/blog_2015-11-17.sql"> Baza podataka - SQL format </a> </li>
 
 	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture12/"> Wiki - dokumentacija aplikacije </a> </li>
 
