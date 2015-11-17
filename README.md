@@ -214,7 +214,7 @@ pravljenje tabla, indexi, veze izmedju tabela i prakticne primjere osnovih opera
 
 	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture12/"> Wiki - dokumentacija aplikacije </a> </li>
 
-	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture12/helpes/password.php"> Password klasa </a> </li>
+	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture12/helpers/password.php"> Password klasa </a> </li>
 
 </ul>
 
