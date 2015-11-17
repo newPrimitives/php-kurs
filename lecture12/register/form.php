@@ -12,19 +12,26 @@ if (isset($_POST['data'])) {
     $database = new Database();
     $pdo = $database->connect();
 
+    $isEmailFree = $database->isEmailFree($data['email']);
 
-	$sql = "INSERT INTO user(name, email, password) VALUES (:name, :email, :password)";
-	$stmt = $pdo->prepare($sql);
-	$result = $stmt->execute($data);
+    if($isEmailFree){
+    	$sql = "INSERT INTO user(name, email, password) VALUES (:name, :email, :password)";
+		$stmt = $pdo->prepare($sql);
+		$result = $stmt->execute($data);
 
-	$pdo = NULL;
+		$pdo = NULL;
+    }
+    else {
+    	$result = 0;
+    }
+
 
 	if($result == 1){
 		echo "<h1> Novi korisnik dodan uspjesno! </h1>";
 		echo "<a href='../index.php'> Nazad na pocetnu stranicu </a>";
 	}
 	else {
-		echo "<h1> Greska, pokusaj <a href='index.html'>  ponovo </a>";
+		echo "<h1> Greska, pokusaj <a href='index.php'>  ponovo </a>";
 	}
 }
 

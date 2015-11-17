@@ -7,10 +7,16 @@ class Database extends Connection
 {	
 	public $pdo;
 
+	// Construct funkcija koja povecuje klasu Database za bazom iz klase Connection 
 	public function __construct() {
         $this->pdo = $this->connect();
     }
 
+
+    /*
+    	Funkcija vraca se autore iz baze 
+    */
+   
 	public function getAllAuthors() 
 	{
 
@@ -20,6 +26,11 @@ class Database extends Connection
 
 		return $result;
 	}
+
+
+	/*
+    	Funkcija vraca se clanke iz baze 
+    */
 
 	public function getAllArticles()
 	{
@@ -31,6 +42,11 @@ class Database extends Connection
 		return $result;
 	}
 
+
+	/*
+    	Funkcija kao parametar prima id clanka i vrati sve atribute iz baze za taj clanak  
+    */
+
 	public function getArticle($id)
 	{
 		$query = $this->pdo->prepare("SELECT article.id as 'id', article.title as 'title', article.text as 'text', article.image as 'image', author.name as 'name' FROM author, article WHERE
@@ -40,6 +56,33 @@ class Database extends Connection
 		return $result;
 	}
 
+
+	/*
+    	Funkcija se poziva prilikom registracije, prima kao parametar email i provjerava da li on vec postoji u bazi.
+    	Ukoliko ne postoji vraca true, a ukoliko da vraca false.  
+    */
+
+	public function isEmailFree($email)
+	{	
+		$query = $this->pdo->prepare("SELECT * FROM user WHERE email = '$email'");
+		$query->execute();
+		$result = $query->fetch();
+
+		if (empty($result)){
+
+			return true;
+		}
+		else {
+			return false;
+		}
+	}
+
+
+	/*
+    	Funkcija se poziva prilikom logina, prima kao parametre email i password, pronalazi u bazi usera na osnovu emaila. Ukoliko
+    	result nije prazan, provjerava password. Ukoliko nema errora znaci da je user logovan. 
+    */
+   
 	public function getUser($email, $formPassword)
 	{	
 		$query = $this->pdo->prepare("SELECT * FROM user WHERE email = '$email'");
@@ -65,6 +108,12 @@ class Database extends Connection
 		
 	}
 
+
+	/*
+    	Funkcija se poziva prilikom ispisivanja jednog clanka. Prima kao parameter id od clanka i iz table comments ispisuje sve komentare 
+    	vezane za taj clanak.
+    */
+   
 	public function getAllComments($article_id)
 	{
 		$query = $this->pdo->prepare("SELECT comments.text as text, user.name as name FROM comments, user, article

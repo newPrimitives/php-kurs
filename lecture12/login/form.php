@@ -7,10 +7,14 @@ if (isset($_POST['data'])) {
 	require_once('../helpers/database.php');
 	$database = new Database();
 	$user = $database->getUser($data['email'], $data['password']);
-	session_start();
-	$_SESSION['logged_user'] = $user;
-	$redirectURL = "../index.php";
-	header('Location: '.$redirectURL);
+	
+	if(!empty($user)){
+		session_start();
+		$_SESSION['logged_user'] = $user;
+		$redirectURL = "../index.php";
+		header('Location: '.$redirectURL);
+	}
+	
 
 }
 else {
