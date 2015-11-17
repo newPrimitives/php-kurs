@@ -203,6 +203,21 @@ pravljenje tabla, indexi, veze izmedju tabela i prakticne primjere osnovih opera
 
 </ul>
 
+<h4><a href="http://www.slideshare.net/NerminSehic/php-za-pocetnike-predavanje-12" target="_blank">Lekcija 12 </a></h4>
+
+<p> Lekcija 12 je nastavak razvijanja jednostavnog blog website-a iz lekcije 11. Lekcija 12 ukljucuje login, registraciju korisnika, sesije, hashovanje password-a, pisanje komentara na clanak te prikazivanje razlicitog sadrzaja zavisno od toga da li je korisnik logovan ili ne. </p>
+
+<ul> 
+	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture12/"> Blog - kompletna aplikacija</a> </li>
+
+	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture12/database/blog_2015-11-12.sql"> Baza podataka - SQL format </a> </li>
+
+	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture12/"> Wiki - dokumentacija aplikacije </a> </li>
+
+	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture12/helpes/password.php"> Password klasa </a> </li>
+
+</ul>
+
 <h4><a href="https://github.com/newPrimitives/php-kurs/blob/master/examples">Dodatni primjeri </a></h4>
 
 <p> Dodatni primjeri ukljucuju kodove (PHP, JavaScript, HTML, CSS) izvan plana i programa kursa a koje su polaznici smatrali zanimljivim. </p>

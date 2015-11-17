@@ -1,6 +1,6 @@
 <?php
     
-    include_once('../head.html');
+    include_once('../head.php');
     require_once('../helpers/database.php');
 
     $database = new Database();

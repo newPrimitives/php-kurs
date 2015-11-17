@@ -1,4 +1,4 @@
-<?php include_once('../head.html'); ?>
+<?php include_once('../head.php'); ?>
 
 <div class="container" style="margin-top: 30px; margin-bottom: 30px;">
     
