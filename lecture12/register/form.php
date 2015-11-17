@@ -17,14 +17,13 @@ if (isset($_POST['data'])) {
     if($isEmailFree){
     	$sql = "INSERT INTO user(name, email, password) VALUES (:name, :email, :password)";
 		$stmt = $pdo->prepare($sql);
-		$result = $stmt->execute($data);
-
-		$pdo = NULL;
+		$result = $stmt->execute($data);	
     }
     else {
     	$result = 0;
     }
-
+	
+	$pdo = NULL;
 
 	if($result == 1){
 		echo "<h1> Novi korisnik dodan uspjesno! </h1>";

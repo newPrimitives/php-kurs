@@ -1,4 +1,10 @@
-<?php include_once('../head.php'); ?>
+<?php include_once('../head.php');
+    
+    if(!isset($_SESSION['logged_user'])){
+
+        header('location: ../login');
+    }
+ ?>
 
 <div class="container" style="margin-top: 30px; margin-bottom: 30px;">
     

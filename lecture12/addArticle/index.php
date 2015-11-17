@@ -1,6 +1,12 @@
 <?php
     
     include_once('../head.php');
+
+    if(!isset($_SESSION['logged_user'])){
+
+        header('location: ../login');
+    }
+    
     require_once('../helpers/database.php');
 
     $database = new Database();

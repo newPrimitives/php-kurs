@@ -97,6 +97,13 @@ class Database extends Connection
 		       return $result;
 		    }  
 
+		    // Linije 95 - 99 isto kao
+		    // $var = $password->password_verify($formPassword, $result['password'])
+		    // if($var == 1){
+ 				
+		    //    return $result;
+		    // }  
+
 		    else {
 	 			echo "<h1> Pogresan email ili password. </h1>";
 	 		}
