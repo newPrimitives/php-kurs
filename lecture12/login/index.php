@@ -13,7 +13,7 @@
         <br><br>
 
         Password:<br>
-        <input type="password" name="data[password]" required="required" placeholder="Password">
+        <input type="password" name="data[password]" required="required" placeholder="Password" style="padding: 10px; width: 400px;">
 
         <br><br>
 

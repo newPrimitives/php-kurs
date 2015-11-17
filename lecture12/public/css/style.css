@@ -37,13 +37,8 @@ textarea, input[type]{
 	width: 400px;
 }
 
-textarea{
-	width: 400px;
-	height: 100px;
-}
-
 select {
-    background: transparent;
+    background: trans`rent;
     width: 425px;
     padding: 5px;
     font-size: 16px;
