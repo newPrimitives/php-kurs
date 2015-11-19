@@ -218,6 +218,16 @@ pravljenje tabla, indexi, veze izmedju tabela i prakticne primjere osnovih opera
 
 </ul>
 
+<h4><a href="http://www.slideshare.net/NerminSehic/php-za-pocetnike-predavanje-12" target="_blank">Lekcija 13 </a></h4>
+
+<p> Lekcija 13 ukljucuje validaciju, filtriranje inputa, upload file-ova i rad sa datumima. </p>
+	
+<ul> 
+
+</ul>
+
+
+
 <h4><a href="https://github.com/newPrimitives/php-kurs/blob/master/examples">Dodatni primjeri </a></h4>
 
 <p> Dodatni primjeri ukljucuju kodove (PHP, JavaScript, HTML, CSS) izvan plana i programa kursa a koje su polaznici smatrali zanimljivim. </p>
