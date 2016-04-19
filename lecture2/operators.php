@@ -35,7 +35,7 @@
 	$y = 3;
 
 	echo "Rezultat oduzimanja: ";
-	echo $x + $y;
+	echo $x - $y;
 	?>
 
 	<br>
