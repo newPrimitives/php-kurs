@@ -2,7 +2,7 @@
 
 include_once("model/Book.php");
 
-class Model {
+class Books {
 
 	/*
 		Simulacija vracanja svih elementa iz baze 
@@ -34,7 +34,6 @@ class Model {
 		$allBooks = $this->getBookList();
 		return $allBooks[$title];
 	}
-	
 	
 }
 

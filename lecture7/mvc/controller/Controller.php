@@ -1,28 +1,27 @@
 <?php
 
 /*
-	include_once("model/Model.php") ukljucuje fajl Model.php i sve njegove funkcije u Controller cineci
-	ih dostupnim za koristenje		
+	include_once("model/Books.php") ukljucuje fajl Books.php i sve njegove funkcije u Controller cineci ih dostupnim za koristenje		
 */
 
-include_once("model/Model.php");
+include_once("model/Books.php");
 
 
 class Controller {
 
-	public $model;
+	public $books;
 	
 	/*
-		Inicijalizira novi objekat tipa Model 
+		Inicijalizira novi objekat tipa Books 
 		Koristeci funkciju __construct() incijalizacija ce se desiti cim se instancira Controller 
 	*/
 
 	public function __construct()  
     {  
-        $this->model = new Model();
+        $this->books = new Books();
 
     } 
-	
+
 
 	/*
 		Funkcija invoke koja poziva view zavisno od vrijednosti u linku
@@ -38,7 +37,7 @@ class Controller {
 				te vrijednosti spasimo u varijablu $books koju ispisujemo u view booklist.php
 			*/
 			
-			$books = $this->model->getBookList();
+			$books = $this->books->getBookList();
 			include 'view/htmlHead.php';
 			include 'view/booklist.php';
 		}
@@ -49,8 +48,8 @@ class Controller {
 				Ukoliko se u linku nalazi varijabla book sa nekom vrijednosti pozivamo funkciju getBook iz 
 				modela i proslijedimo ime knjige
 			*/
-		
-			$book = $this->model->getBook($_GET['book']);
+				
+			$book = $this->books->getBook($_GET['book']);
 			include 'view/htmlHead.php';
 			include 'view/viewbook.php';
 		}
@@ -59,12 +58,3 @@ class Controller {
 }
 
 ?>
-
-
-
-
-
-
-
-
-

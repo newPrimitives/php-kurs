@@ -1,18 +1,18 @@
 
 <table>
 
-	<tr>
+	<th>
 		<td>Title</td>
 		<td>Author</td>
 		<td>Description</td>
-	</tr>
+	</th>
 
 	<?php 
 
 		/*
 			booklist.php je ukljucen u Controller zbog cega su sve varijable unutar controllera dostupne 
 		*/
-	
+
 		foreach ($books as $title => $book)
 		{
 			echo '

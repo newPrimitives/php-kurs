@@ -35,7 +35,6 @@ try {
 	echo $e->getMessage();
 }
 
-
 echo "<hr>";
 
 try {
