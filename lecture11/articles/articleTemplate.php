@@ -6,7 +6,7 @@
 		<article">
 			<h1 class="title"> ' . $article['title']. ' </h1>
 			<br>
-			<img src='. $article['image'].'> 
+			<img width="50%" src='. $article['image'].'> 
 			<p> ' . $article['text']. ' </p>
 		</article>
 	</div>

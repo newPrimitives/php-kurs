@@ -22,7 +22,6 @@ class Controller {
 
     } 
 
-
 	/*
 		Funkcija invoke koja poziva view zavisno od vrijednosti u linku
 		invoke() je pozvan u fajlu index.php
@@ -30,6 +29,8 @@ class Controller {
 
 	public function invoke()
 	{
+		include 'view/htmlHead.php';
+
 		if (!isset($_GET['book']))
 		{
 			/*
@@ -38,7 +39,6 @@ class Controller {
 			*/
 			
 			$books = $this->books->getBookList();
-			include 'view/htmlHead.php';
 			include 'view/booklist.php';
 		}
 
@@ -50,7 +50,6 @@ class Controller {
 			*/
 				
 			$book = $this->books->getBook($_GET['book']);
-			include 'view/htmlHead.php';
 			include 'view/viewbook.php';
 		}
 

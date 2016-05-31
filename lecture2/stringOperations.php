@@ -37,13 +37,11 @@
 	
 	$untrimmedString = '     String sa praznim prostorom     ';
 
-
 	/*
 		Funckija strlen() vraca broj karaktera u stringu ukljucujuci i prazan prostor
 	 */
 	
 	$lengthOfUntrimmedString = strlen($untrimmedString);
-
 
 	/*
 		Funkcija trim() uklanja prazan prostor sa pocetka i kraja stringa 
@@ -103,8 +101,9 @@
 	 */
 	
 	$newText = str_replace('bezveze', 'super', $text);
-
-	printf('<br/> %s', $newText);
+	$name = "nermin";
+	echo $name;
+	print($name);
 	
 ?>
 

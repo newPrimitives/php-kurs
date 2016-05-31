@@ -11,7 +11,7 @@ if (isset($_POST['data'])) {
 	require_once('../helpers/database.php');
     $database = new Database();
     $pdo = $database->connect();
-
+    
     $isEmailFree = $database->isEmailFree($data['email']);
 
     if($isEmailFree){

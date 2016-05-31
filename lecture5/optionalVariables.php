@@ -1,6 +1,6 @@
 <?php
 
-	function addressTable($name, $address, $city, $flatEntrence = '&nbsp;')
+	function addressTable($name, $address, $city, $flatEntrence)
 	{
 		$table = '<table border=1>' . PHP_EOL;
 		$table .= '<tr><th>Name</th><td>' .$name. '</td></tr>';

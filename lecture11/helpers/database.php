@@ -5,7 +5,7 @@ require_once 'connection.php';
 class Database extends Connection 
 {	
 	public $pdo;
-
+	
 	public function __construct() {
         $this->pdo = $this->connect();
     }

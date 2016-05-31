@@ -15,8 +15,8 @@ class Books {
 			Koristeci __construct funckiju unutar modela Book u jednoj liniji koda instanciramo objekat i dodjelimo
 			mu nove vrijednost bez pozivanja dodatnih funkcija
 		 */
-		
-		return array(
+
+		return array(	
 			"Jungle Book" => new Book("Jungle Book", "R. Kipling", "A classic book."),
 			"Moonwalker" => new Book("Moonwalker", "J. Walker", ""),
 			"PHP for Dummies" => new Book("PHP for Dummies", "Some Smart Guy", "")

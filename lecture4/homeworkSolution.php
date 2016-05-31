@@ -8,7 +8,7 @@
 
 	$images = array("http://static.klix.ba/media/images/vijesti/151014080.2_mn.jpg", "http://static.klix.ba/media/images/vijesti/b_151008003.jpg", "http://static.klix.ba/media/images/vijesti/151013120.2_xl.jpg");
 
-	$user = "admin";
+	$user = "guest";
 
 ?>
 

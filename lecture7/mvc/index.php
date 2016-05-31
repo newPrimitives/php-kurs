@@ -14,7 +14,7 @@
 	/*
 		Poziva funkciju invoke() iz objekta $controller
 	*/
-
+		
 	$controller->invoke();
 
 ?>

@@ -1,3 +1,3 @@
 <?php
 
-var_dump(phpinfo());
+var_dump(get_defined_functions());

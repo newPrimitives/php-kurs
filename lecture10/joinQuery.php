@@ -4,7 +4,7 @@
 // database username
 $user = 'root';
 // database password
-$pass = '';
+$pass = 'root';
 // data source = mysql driver, localhost, database = class
 $dsn = 'mysql:host=localhost;dbname=blog';
 

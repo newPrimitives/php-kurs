@@ -59,7 +59,7 @@
 	function generateHTMLList($items) 
 	{	
 
-		$paginatedItems = paginate($items, 5);
+		$paginatedItems = paginate($items, 2);
 
 		printf('<ul>');
 		

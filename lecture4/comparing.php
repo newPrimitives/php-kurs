@@ -20,7 +20,7 @@
 	
 	<?php
 
-		$user = 'user';
+		$user = 'Admin';
 		$message = 'Not logged in.';
 
 		if($user != 'Admin') {
@@ -35,7 +35,7 @@
 	
 	<?php
 
-		$user = 'user';
+		$user = 'Admin';
 		$message = 'Not logged in.';
 
 		if($user == 'Admin') {
@@ -107,7 +107,7 @@
 	
 	<?php
 
-		$newUser;
+		$newUser = "nesto";
 		$message = '';
 
 		/*

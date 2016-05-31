@@ -6,12 +6,12 @@
     <input type="text" name="firstname" value="Mickey">
     <br>
     Last name:<br>
-    <input type="text" name="lastname" value="Mouse">
+    <input type="text" name="lastname" placeholder="Upisi svoje prezime">
     <br><br>
-     <input type="radio" name="sex" value="male" checked>Male
+     <input type="radio" name="sex" value="1" checked>Male
     <br>
-    <input type="radio" name="sex" value="female">Female <br> <br>
-    <input type="submit" value="Submit">
+    <input type="radio" name="sex" value="2">Female <br> <br>
+    <input type="submit" value="Okini">
   </fieldset>
 
 </form>

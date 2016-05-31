@@ -11,9 +11,9 @@ if (isset($_POST['data'])) {
 	$sql = "INSERT INTO article(title, text, image, author_id) VALUES (:title, :text, :image, :author)";
 	$stmt = $pdo->prepare($sql);
 	$result = $stmt->execute($data);
-
+	
 	$pdo = NULL;
-
+	
 	if($result == 1){
 		echo "<h1> Clanak dodan uspjesno! </h1>";
 		echo "<a href='../index.php'> Nazad na pocetnu stranicu </a>";
@@ -24,6 +24,6 @@ if (isset($_POST['data'])) {
 }
 
 else {
-	include 'index.html';
+	include 'index.php';
 }
 

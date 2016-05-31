@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
 
-  <title> Starter template</title>
+  <title> Starter template </title>
   <meta name="description" content="HTML5 Starter template">
   <meta name="author" content="Nermin Sehic">
 

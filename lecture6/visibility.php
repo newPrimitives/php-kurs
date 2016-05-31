@@ -32,4 +32,4 @@ $visibility = new Visibility();
 //echo '<br />', $visibility->privateVar;
 //echo '<br />', $visibility->privateMethod();
 
-echo '<br />', $visibility->getPrivateMethod();
+//echo '<br />', $visibility->getPrivateMethod();

@@ -1,0 +1,16 @@
+#Make index.php and index same 
+Options -Multiviews
+
+# Enable RewriteEngine
+RewriteEngine On
+
+# Set base path 
+RewriteBase /php-mvc/public
+
+# If the file with the specified name in the browser doesn't exist
+# don't exit and proceeed 
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+
+#Change ?a=value the same as /value in URL 
+RewriteRule ^(.+)$ index.php?url=$1 [QSA,L]

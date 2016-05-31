@@ -8,7 +8,7 @@ if (isset($_POST['data'])) {
 	$database = new Database();
 	$user = $database->getUser($data['email'], $data['password']);
 	
-	if(!empty($user)){
+	if(!empty($user)) {
 		session_start();
 		$_SESSION['logged_user'] = $user;
 		$redirectURL = "../index.php";

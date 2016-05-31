@@ -7,10 +7,10 @@
 	 * @param  integer  $pageSize Koliko elemenata niza se prikaze po stranici
 	 * @return novi niz sa brojem elemenata definisanim varijablom pageSize
 	 */ 
-	
+
 	function paginate($array, $pageSize)
 	{	
-		
+
 		// Provjerava da li je varijabla setovana u linku, ukoliko nije defaultna vrijednost je page 1 
 		if(isset($_GET['page'])){
 			$page = $_GET['page'];

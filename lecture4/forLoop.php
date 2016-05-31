@@ -34,7 +34,7 @@
 
 			echo "<div>";
 			echo $days[$x];
-			echo '</div>';
+			echo "</div>";
 
 		}
 

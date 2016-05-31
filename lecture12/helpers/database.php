@@ -11,7 +11,7 @@ class Database extends Connection
 	public function __construct() {
         $this->pdo = $this->connect();
     }
-
+    
 
     /*
     	Funkcija vraca se autore iz baze 
@@ -105,12 +105,12 @@ class Database extends Connection
 		    // }  
 
 		    else {
-	 			echo "<h1> Pogresan email ili password. </h1>";
+	 			echo "<h1> Pogresan password. </h1>";
 	 		}
  		}
 
  		else {
- 			echo "<h1> Pogresan email ili password. </h1>";
+ 			echo "<h1> Pogresan email. </h1>";
  		}
 		
 	}

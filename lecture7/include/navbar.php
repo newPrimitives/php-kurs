@@ -32,5 +32,6 @@ a:hover, a:active {
   <ul style="margin-bottom: 30px;">
     <li><a href="index.php">Pocetna</a></li>
     <li><a href="about.php">O nama</a></li>
+    <li><a href="about.php">Kontakt</a></li>
   </ul>
 
