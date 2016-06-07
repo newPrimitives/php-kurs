@@ -14,7 +14,7 @@
 
 ?>
 <div class="container" style="margin-top: 30px; margin-bottom: 30px;">
-    <form action="form.php" method="POST">
+    <form action="form.php" method="POST" enctype="multipart/form-data">
       
       <fieldset>
         <legend>Dodaj novi clanak:</legend>
@@ -30,7 +30,7 @@
         <br><br>
 
         Slika: <br>
-        <input type="text" name="data[image]" required="required" placeholder="Thumbnail">
+        <input type="file" name="image" required="required">
 
         <br><br>
 

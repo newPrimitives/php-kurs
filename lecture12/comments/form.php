@@ -6,6 +6,7 @@ if (isset($_POST['data'])) {
 	$data = $_POST['data'];
 	$data['user_id'] = $_SESSION['logged_user']['id'];
 	require_once('../helpers/database.php');
+
     $database = new Database();
     $pdo = $database->connect();
 
@@ -22,8 +23,7 @@ if (isset($_POST['data'])) {
 	else {
 		echo "<h1> Greska, pokusaj <a href='index.php'>  ponovo </a>";
 	}
-}
-
-else {
+	
+} else {
 	include '../index.php';
 }

@@ -1,3 +1,5 @@
+<?php session_start(); ?>
+
 <!doctype html>
 
 <html lang="en">
@@ -20,7 +22,7 @@
 	<img src="/php-kurs/lecture11/public/images/logo.png">
 
   <?php
-    session_start();
+    
     if(isset($_SESSION['logged_user'])){
       echo "<h1> Dobro dosao/la ", $_SESSION['logged_user']['name'], "</h1>";
       echo '

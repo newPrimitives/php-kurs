@@ -67,7 +67,7 @@ class Database extends Connection
 		$query = $this->pdo->prepare("SELECT * FROM user WHERE email = '$email'");
 		$query->execute();
 		$result = $query->fetch();
-
+		
 		if (empty($result)){
 
 			return true;

@@ -5,10 +5,10 @@ class Home extends Controller {
 	
 	// method called by the route 	
 	public function index ($param = '') {
-
+		
 		$user = $this->model('User');
 		$user->name = $param;
-
+			
 		$this->view('home/index', ['name' => $user->name]);
 	}	
 	

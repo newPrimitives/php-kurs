@@ -9,7 +9,7 @@ class App {
 
 	// Method which parses the url, splits controller, method and params, does error handling in case something goes wrong and presents the passed parameters as PHP classes 
 	public function __construct() {
-
+		
 		// Calls the parseUrl() method 
 		$url = $this->parseUrl();
 

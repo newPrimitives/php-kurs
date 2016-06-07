@@ -8,6 +8,18 @@ if (isset($_POST['data'])) {
     $database = new Database();
     $pdo = $database->connect();
 
+    // Definise folder gdje se slika uploaduje 
+	$target_dir = "../public/images/";
+
+	// Definise ime, extenziju slike zajedno sa folderom
+	$target_file = $target_dir . basename($_FILES["image"]["name"]);
+
+	// Uploaduje zadatu sliku koristeci funkciju move_upload_file iz PHP
+	move_uploaded_file($_FILES["image"]["tmp_name"], $target_file);
+
+	// Spasimo ime slike u $data['image'] koji sacuvamo u bazu 
+	$data['image'] = 'public/images/' . basename($_FILES["image"]["name"]);
+	
 	$sql = "INSERT INTO article(title, text, image, author_id) VALUES (:title, :text, :image, :author)";
 	$stmt = $pdo->prepare($sql);
 	$result = $stmt->execute($data);
@@ -24,6 +36,6 @@ if (isset($_POST['data'])) {
 }
 
 else {
-	include 'index.html';
+	include 'index.php';
 }
 

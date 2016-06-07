@@ -5,7 +5,7 @@ Options -Multiviews
 RewriteEngine On
 
 # Set base path 
-RewriteBase /php-mvc/public
+# RewriteBase /php-mvc/public
 
 # If the file with the specified name in the browser doesn't exist
 # don't exit and proceeed 

@@ -3,7 +3,7 @@
 if (isset($_POST['data'])) {
 
 	$data = $_POST['data'];
-	
+
 	require_once('../helpers/database.php');
     $database = new Database();
     $pdo = $database->connect();
@@ -19,10 +19,10 @@ if (isset($_POST['data'])) {
 		echo "<a href='../index.php'> Nazad na pocetnu stranicu </a>";
 	}
 	else {
-		echo "<h1> Greska, pokusaj <a href='index.html'>  ponovo </a>";
+		echo "<h1> Greska, pokusaj <a href='index.html'>  ponovo </a> </h1>";
 	}
 }
 
 else {
-	include 'index.html';
+	include 'index.php';
 }
