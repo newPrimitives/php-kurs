@@ -218,12 +218,24 @@ pravljenje tabla, indexi, veze izmedju tabela i prakticne primjere osnovih opera
 
 </ul>
 
-<h4><a href="#">Lekcija 13 </a></h4>
+<h4><a href="https://github.com/newPrimitives/php-kurs/tree/master/lecture13">Lekcija 13 </a></h4>
 
 <p> Lekcija 13 ukljucuje praktican primjer razvoja primitivnog MVC framework-a baziranog na MVC organizaciji ukljucujuci public/private dijelove koda, koristenje .htaccess fajla, base controller-a i modela, routing sistema SEO friendly URL-ova. </p>
 
 <ul> 
 	<li> <a href="https://github.com/newPrimitives/php-kurs/tree/master/php-mvc"> MVC framework - kompletan kod </a> </li>
+	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture13/fileUpload.php"> Snipet koda za upload slike </a> </li>
+	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture13/dates.php"> Snipet koda za rad sa datumima </a> </li>
+
+</ul>
+
+<h4><a href="https://github.com/newPrimitives/php-kurs/wiki/Laravel-5---ToDo-aplikacija">Lekcija 14 </a></h4>
+
+<p> Lekcija 14 ukljucuje TODO aplikaciju napisanu u Laravel Framework-u. Aplikacija je zamisljena kao uvod u Laravel framework i pokriva osnove stvari kao sto su instalacija composer-a, instalacija Laravel projekta, migracije, rute, blade, content layout, modele, controller-e, relacije izmedju modela te osnovnu CRUD funkcionalnost. </p>
+
+<ul> 
+	<li> <a href="https://github.com/newPrimitives/php-kurs/tree/master/todo"> ToDo Laravel - kompletan kod </a> </li>
+	
 
 </ul>
 

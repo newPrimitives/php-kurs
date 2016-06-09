@@ -2,8 +2,8 @@
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-use App\Task;
 use Illuminate\Support\Facades\Validator;
+use App\Task;
 
 class TaskController extends Controller 
 {
@@ -27,7 +27,7 @@ class TaskController extends Controller
               ->withInput()
               ->withErrors($validator);
         }
-
+        
         $task = new Task;
         $task->name = $request->name;
         $task->save();

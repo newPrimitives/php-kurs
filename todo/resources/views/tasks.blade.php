@@ -2,14 +2,13 @@
 
 @section('content')
 
-    <!-- Bootstrap Boilerplate... -->
-
     <div class="panel-body">
         <!-- Display Validation Errors -->
         @include('common.errors')
 
         <!-- New Task Form -->
         <form action="{{ url('task') }}" method="POST" class="form-horizontal">
+            <!-- Creates hidden key for the form --> 
             {!! csrf_field() !!}
 
             <!-- Task Name -->
@@ -32,7 +31,7 @@
         </form>
     </div>
 
-    <!-- Current Tasks -->
+    <!-- Current Tasks, shows only if there is at least one task -->
     @if (count($tasks) > 0)
         <div class="panel panel-default">
             <div class="panel-heading">
