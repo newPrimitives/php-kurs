@@ -3,7 +3,7 @@
 class App {
 
 	// Default controller and default method when the app is bootstraped 
-	protected $controller = 'home';
+	protected $controllerString = 'home';
 	protected $method = 'index';
 	protected $params = [];
 
@@ -34,6 +34,12 @@ class App {
 		}
 
 		// Rebase the index so index 2 becomes index 0
+		// Long version of the code below 
+		// for ($i = 2; $i < size_of($url); $i++) {
+		// 	if($url[$i] != null) {
+		// 		array_push($this->params, $url[$i])
+		// 	}
+		// }
 		$this->params = $url ? array_values($url) : [];
 
 		// Method from PHP which calls the function from the class if given an array which contains controller and that function as well as parameters which can be an empty array

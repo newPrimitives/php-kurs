@@ -223,7 +223,7 @@ pravljenje tabla, indexi, veze izmedju tabela i prakticne primjere osnovih opera
 <p> Lekcija 13 ukljucuje praktican primjer razvoja primitivnog MVC framework-a baziranog na MVC organizaciji ukljucujuci public/private dijelove koda, koristenje .htaccess fajla, base controller-a i modela, routing sistema SEO friendly URL-ova. </p>
 
 <ul> 
-	<li> <a href="https://github.com/newPrimitives/php-kurs/tree/master/php-mvc"> MVC framework - kompletan kod</a> </li>
+	<li> <a href="https://github.com/newPrimitives/php-kurs/tree/master/php-mvc"> MVC framework - kompletan kod </a> </li>
 
 </ul>
 
