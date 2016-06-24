@@ -7,7 +7,9 @@ Repozitorij sadrzi fajlove vezane za kurs PHP-a za pocetnike na Academy387. Cilj
 <a href="http://php.net/docs.php" target="_blank"> PHP dokumentacija </a><br>
 <a href="http://www.w3schools.com/html/default.asp" target="_blank"> W3Schools </a> <br>
 <a href="https://www.youtube.com/watch?v=y3UH2gAhwPI" target="_blank"> HTML & CSS za pocetnike - Video </a>
-
+<a href="https://laravel.com/" target="_blank"> Laravel zvanicna dokumentacija </a> <br>
+<a href="https://laracasts.com/" target="_blank"> Laracast - tutoriali za Laravel </a> <br>
+<a href="https://www.youtube.com/watch?v=cEYLjsEKyy8&list=PLfdtiltiRHWGGxaR6uFtwZnnbcXqyq8JD" target="_blank"> Social netowork sa Laravelom tutorial </a> <br>
 
 <h2>Sadrzaj repozitorija: </h2>
 
