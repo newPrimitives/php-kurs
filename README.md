@@ -19,7 +19,7 @@ Repozitorij sadrzi fajlove vezane za kurs PHP-a za pocetnike na Academy387. Cilj
 
 <ul>
 	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture1/htmlStarerTemplate.php" target="_blank">HTML starter template </a> </li>
-	<li> [Hello World](https://github.com/newPrimitives/php-kurs/blob/master/lecture1/helloWorld.php) </li>
+	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture1/helloWorld.php" target="_blank">Hello world </a> </li>
 </ul>
 
 <h4> <a href="http://www.slideshare.net/NerminSehic/php-za-pocetnike-predavanje-2" target="_blank">Lekcija 2 </a></h4>
@@ -27,19 +27,12 @@ Repozitorij sadrzi fajlove vezane za kurs PHP-a za pocetnike na Academy387. Cilj
 <p>Lekcija 2 ukljucuje shvatanje osnova, sintaksu, varijable, artrimetričke operacije, operacije sa stringovima, PHP i HTML combined </p>
 
 <ul> 
-
 	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture2/example1_starterTemplate.php"> Starter template za vjezbu 1 </a> </li>
-
 	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture2/example1_final.php"> Rjesenje vjezbe 1 </a> </li>
-
 	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture2/operators.php"> Lista operacija u PHP </a> </li>
-
 	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture2/constants.php"> Primjeri konstanti u PHP </a> </li>
-
 	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture2/example2_final.php"> Rjesenje vjezbe 2</a> </li>
-
 	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture2/stringOperations.php"> Stringovi u PHP</a> </li>
-
 </ul>
 
 <h4><a href="http://www.slideshare.net/NerminSehic/php-za-pocetnike-predavanje-3" target="_blank">Lekcija 3 </a></h4>
