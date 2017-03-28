@@ -26,7 +26,7 @@ Repozitorij sadrzi fajlove vezane za kurs PHP-a za pocetnike na Academy387. Cilj
 
 <p>Lekcija 2 ukljucuje shvatanje osnova, sintaksu, varijable, artrimetričke operacije, operacije sa stringovima, PHP i HTML combined </p>
 
-<ul> 
+<ul style="background-color: #F6F8FA"> 
 	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture2/example1_starterTemplate.php"> Starter template za vjezbu 1 </a> </li>
 	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture2/example1_final.php"> Rjesenje vjezbe 1 </a> </li>
 	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture2/operators.php"> Lista operacija u PHP </a> </li>
@@ -40,19 +40,12 @@ Repozitorij sadrzi fajlove vezane za kurs PHP-a za pocetnike na Academy387. Cilj
 <p> Lekcija 3 ukljucuje arrays (osnove), numerical arrays, associative arrays, upis/ispis iz niza, multidimenzionalni nizovi, sortiranje i pretraga nizova, array merging.  </p>
 
 <ul> 
-
 	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture3/example1_starterTemplate.php"> Starter template za vjezbu 1 </a> </li>
-
 	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture3/example1_final.php"> Rjesenje vjezbe 1 </a> </li>
-
 	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture3/arraysBasic.php"> Osnovne operacije sa nizovima </a> </li>
-
 	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture3/arraySearch.php"> Pretrage po nizovima </a> </li>
-
 	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture3/arraySort.php"> Sortiranje nizova </a> </li>
-
 	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture3/removeArray.php"> Brisanje iz nizova </a> </li>
-
 </ul>
 
 <h4><a href="http://www.slideshare.net/NerminSehic/php-za-pocetnike-predavanje-4" target="_blank">Lekcija 4 </a></h4>
