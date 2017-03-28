@@ -18,11 +18,11 @@ Repozitorij sadrzi fajlove vezane za kurs PHP-a za pocetnike na Academy387. Cilj
 <p> Lekcija 1 ukljucuje podešavanje development environmenta te Hello World primjer </p>
 
 <ul>
-<li> [HTML starter template](https://github.com/newPrimitives/php-kurs/blob/master/lecture1/htmlStarerTemplate.php) </li>
-<li> [Hello World](https://github.com/newPrimitives/php-kurs/blob/master/lecture1/helloWorld.php) </li>
+	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture1/htmlStarerTemplate.php" target="_blank">HTML starter template </a> </li>
+	<li> [Hello World](https://github.com/newPrimitives/php-kurs/blob/master/lecture1/helloWorld.php) </li>
 </ul>
 
-<h4><a href="http://www.slideshare.net/NerminSehic/php-za-pocetnike-predavanje-2" target="_blank">Lekcija 2 </a></h4>
+<h4> <a href="http://www.slideshare.net/NerminSehic/php-za-pocetnike-predavanje-2" target="_blank">Lekcija 2 </a></h4>
 
 <p>Lekcija 2 ukljucuje shvatanje osnova, sintaksu, varijable, artrimetričke operacije, operacije sa stringovima, PHP i HTML combined </p>
 
