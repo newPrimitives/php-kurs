@@ -41,8 +41,9 @@
 	   		$nextPage = $page+1;
 	   	}
 
-	   	printf('<a href="paginationExample.php?page=%s"> <button> << </button> </a>', $prevPage);
-		printf('<a href="paginationExample.php?page=%s"> <button> >> </button> </a>', $nextPage);
+	   	$base = basename(__FILE__, '.php');
+	   	printf('<a href="$base?page=%s"> <button> << </button> </a>', $prevPage);
+		printf('<a href="$base?page=%s"> <button> >> </button> </a>', $nextPage);
 
 	   	return $arrayChunk;
 
