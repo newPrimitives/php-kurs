@@ -115,7 +115,7 @@ Repozitorij sadrzi fajlove vezane za kurs PHP-a za pocetnike na Academy387. Cilj
 pravljenje tabla, indexi, veze izmedju tabela i prakticne primjere osnovih operacija sa bazama.  </p>
 
 <ul>
-	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture7/homework"> Rjesenje zadace iz lekcije 7 </a> </li>
+	<li> <a href="https://github.com/newPrimitives/php-kurs/blob/master/lecture7/homework"> Rjesenje zadace 4 </a> </li>
 </ul>
 
 <h4><a href="http://www.slideshare.net/NerminSehic/php-za-pocetnike-predavanje-9" target="_blank">Lekcija 9 </a></h4>
