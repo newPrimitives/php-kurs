@@ -10,7 +10,7 @@ Repozitorij sadrzi fajlove vezane za kurs PHP-a za pocetnike na Academy387. Cilj
 <a href="https://laravel.com/" target="_blank"> Laravel zvanicna dokumentacija </a> <br>
 <a href="https://laracasts.com/" target="_blank"> Laracast - tutoriali za Laravel </a> <br>
 <a href="https://www.youtube.com/watch?v=cEYLjsEKyy8&list=PLfdtiltiRHWGGxaR6uFtwZnnbcXqyq8JD" target="_blank"> Social netowork sa Laravelom tutorial </a> <br>
-
+<a href="https://github.com/newPrimitives/php-kurs/blob/master/resources.php"> PHP - Resursi za vjezbu </a> <br>
 <h2>Sadrzaj repozitorija: </h2>
 
 <h4><a href="http://www.slideshare.net/NerminSehic/php-za-pocetnike-predavanje-1" target="_blank">Lekcija 1 </a></h4>
