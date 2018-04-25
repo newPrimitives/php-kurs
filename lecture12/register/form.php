@@ -5,6 +5,7 @@ if (isset($_POST['data'])) {
 
 	$data = $_POST['data'];
 	
+	// Open Source funkcija password.php (Source GitHub) koja HASHuje string u 64 karakterni string radi sigurnosti
 	require_once("../helpers/password.php");
 	$data['password'] = password_hash($data['password'], PASSWORD_BCRYPT);
 
@@ -12,6 +13,7 @@ if (isset($_POST['data'])) {
     $database = new Database();
     $pdo = $database->connect();
     
+    // Funkcija koja provjerava da li email koji je korisnik unio pri registraciji vec postoji u bazi. Ukoliko postoji, znaci da i korisnik postoji te registracija nije moguca. 
     $isEmailFree = $database->isEmailFree($data['email']);
 
     if($isEmailFree){

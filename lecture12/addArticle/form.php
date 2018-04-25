@@ -1,9 +1,12 @@
 <?php
 
+// Ukoiko user klikne submit $_POST['data'] bude true, tako znamo da je forma submitan-a.
 if (isset($_POST['data'])) {
 
+	// Upisujemo u varijablu $data sve ono sto je user upisao u formu. 'data' unutar ovog file-a odgovara 'data' unutar HTML forme. Ukoliko su istog imena, stedimo vrijeme na pisanju koda. 
 	$data = $_POST['data'];
 	
+	// Ukljucujemo konekciju na bazu
 	require_once('../helpers/database.php');
     $database = new Database();
     $pdo = $database->connect();

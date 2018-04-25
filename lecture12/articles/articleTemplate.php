@@ -1,4 +1,5 @@
 <?php
+	// Template za jedan clanak - cisti HTML koji samo ispisuje vrijednosti iz baze kroz PHP 
 	include_once('../head.php');
 	echo '
 	<div class="container center" style="margin-top: 30px; margin-bottom: 30px;"> 

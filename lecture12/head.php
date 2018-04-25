@@ -1,3 +1,4 @@
+<!-- session_start() pozivamo zbog login funkcionalnosti. -->
 <?php session_start(); ?>
 
 <!doctype html>
@@ -22,7 +23,8 @@
 	<img src="/php-kurs/lecture11/public/images/logo.png">
 
   <?php
-    
+    // Ukoliko se unutar sesije nalaze podaci vezani za logovanog usera ispisujemo jedan tip menija 
+    // $_SESSION['logged_user'] sadrzi informacije o useru izvucene iz baze.
     if(isset($_SESSION['logged_user'])){
       echo "<h1> Dobro dosao/la ", $_SESSION['logged_user']['name'], "</h1>";
       echo '
@@ -35,6 +37,7 @@
       
     }
     else {
+      // Ukoliko je sesija prazna znaci da user nije logovan i prikazujemo drugi tip menija
       echo "<h1> Dobrodosli na blog Academy387 </h1>";
       echo '
       <a class="link" href="/php-kurs/lecture12/login"> Prijava </a>
